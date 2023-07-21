@@ -10,7 +10,6 @@ func MaxSumArray(nums []int) int {
 	for i := 0; i < len(dp); i++ {
 		dp[i] = make([]int, len(nums))
 	}
-
 	max := math.MinInt
 
 	for x := len(nums) - 1; x >= 0; x-- {
