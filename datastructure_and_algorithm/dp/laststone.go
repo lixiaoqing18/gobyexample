@@ -9,6 +9,7 @@ func LastStoneWeightII(stones []int) int {
 	w := sum / 2
 	//物品数量
 	n := len(stones)
+
 	dp := make([][]int, n+1)
 	for i := 0; i <= n; i++ {
 		dp[i] = make([]int, w+1)
