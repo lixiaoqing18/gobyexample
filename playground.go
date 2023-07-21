@@ -27,5 +27,8 @@ func main() {
 
 	//fmt.Println(dp.MaxSumArray([]int{-2, 1, -3, 1, -1, 6, 2, -5, 5, 1}))
 	//fmt.Println(dp.MaxSumArray2([]int{-2, 1, -3, 1, -1, 6, 2, -5, 5, 1}))
-	fmt.Println(dp.MaxSumArray3([]int{-2, 1, -3, 1, -1, 6, 2, -5, 5, 1}))
+	//fmt.Println(dp.MaxSumArray3([]int{-2, 1, -3, 1, -1, 6, 2, -5, 5, 1}))
+
+	fmt.Println(dp.LastStoneWeightII([]int{2, 7, 4, 1, 8, 1}))
+	fmt.Println(dp.LastStoneWeightII([]int{31, 26, 33, 21, 40}))
 }
