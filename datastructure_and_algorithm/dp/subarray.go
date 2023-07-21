@@ -25,6 +25,7 @@ func MaxSumArray(nums []int) int {
 			fmt.Printf("dp[%d][%d]=%d\n", x, y, dp[x][y])
 			if max < dp[x][y] {
 				max = dp[x][y]
+
 			}
 		}
 	}
